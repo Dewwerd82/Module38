@@ -1,0 +1,19 @@
+<form class="align-self-center" id="createUserForm">
+  <div class="mb-3">
+    <label for="createUserLogin" class="form-label">Login:</label>
+    <input type="text" class="form-control" id="createUserLogin" name="login" required>
+  </div>
+  <div class="mb-3">
+    <label for="createUserPassword" class="form-label">Password:</label>
+    <input type="text" class="form-control" autocomplete="off" id="createUserPassword" name="password" required>
+  </div>
+  <div class="mb-3">
+    <label for="createUserPole" class="form-label">Role:</label>
+    <select class="form-select" name="role">
+      <option value="0" selected>User</option>
+      <option value="1">Administrator</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-dark shadow-none mb-3">Create</button>
+  <div id="createUserAlert"></div>
+</form>

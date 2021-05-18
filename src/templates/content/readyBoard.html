@@ -1,0 +1,14 @@
+<div class="col-4 text-center border border-dark d-flex flex-column align-items-center">
+    <div class="navbar-brand me-0 bg-danger align-self-stretch">Ready</div>
+    <div id="ready-board" class="card-field d-flex flex-column justify-content-between align-items-center"></div>
+    <form class="d-flex flex-column w-75 align-items-center mb-2 p-1" id="taskForm">
+        <div class="collapse" id="collapseReady">
+            <input type="text" placeholder="For user..." class="w-100" name="user" required>
+            <textarea placeholder="Task..." class="w-100" name="task" required></textarea>
+        </div>
+        <button %addDisabled% id="addCardReady" class="btn btn-dark shadow-none" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseReady" aria-expanded="false" aria-controls="collapseReady">
+            +Add card
+        </button>
+    </form>
+</div>

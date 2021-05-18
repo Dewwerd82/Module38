@@ -1,0 +1,53 @@
+*{
+    transition: 0.3s !important;
+}
+
+button.show{
+    transform: rotate(-90deg);
+}
+
+.alert{
+    animation: alert-hide 3s forwards;
+}
+
+@keyframes alert-hide {
+    0%{
+        opacity: 100;
+    }80%{
+        opacity: 100;
+    }100%{
+        opacity: 0;
+    }
+}
+
+.card-field{
+    padding: 10px;
+    width: 100%;
+}
+
+.card{
+    word-break: break-all;
+    position: relative;
+    width: 90%;
+}
+
+
+.select-task_progress, .select-task_finished{
+    margin: 0 10px 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.select-task_progress:hover{
+    background-color: #ffc107;
+}
+
+.select-task_finished:hover{
+    background-color: #198754;
+}
+
+.info{
+    font-size: 11px;
+    color: cadetblue;
+    align-self: start;
+}
